@@ -71,8 +71,3 @@ func CreatePerson(c *mgo.Collection) func(http.ResponseWriter, *http.Request) {
 		json.NewEncoder(w).Encode(person)
 	}
 }
-
-//DeletePerson endpoint
-func DeletePerson(w http.ResponseWriter, req *http.Request) {
-
-}
