@@ -8,6 +8,6 @@ type Person struct {
 	FirstName   string        `bson:"firstName" json:"firstName,omitempty"`
 	LastName    string        `bson:"lastName" json:"lastName,omitempty"`
 	Address     *Address      `json:"address,omitempty"`
-	PhoneNumber *PhoneNumber  `json:phoneNumber,omitempty`
-	Email       *Email        `json:email,omitempty`
+	PhoneNumber *PhoneNumber  `json:"phoneNumber,omitempty"`
+	Email       *Email        `json:"email,omitempty"`
 }
